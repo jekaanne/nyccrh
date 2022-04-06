@@ -1,0 +1,9 @@
+baseURL: http://nyccivilrightshistory.org/
+languageCode: en-us
+title: New York City Civil Rights History
+
+markup:
+  goldmark:
+    renderer: 
+      unsafe: true
+      
