@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on New York City Civil Rights History</title>
-    <link>http://nyccivilrightshistory.org/tags/</link>
+    <link>http://nyccivilrightshistory.org/site-preview/tags/</link>
     <description>Recent content in Tags on New York City Civil Rights History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 May 1900 00:00:00 +0000</lastBuildDate><atom:link href="http://nyccivilrightshistory.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 May 1900 00:00:00 +0000</lastBuildDate><atom:link href="http://nyccivilrightshistory.org/site-preview/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>untagged</title>
-      <link>http://nyccivilrightshistory.org/tags/untagged/</link>
+      <link>http://nyccivilrightshistory.org/site-preview/tags/untagged/</link>
       <pubDate>Thu, 10 May 1900 00:00:00 +0000</pubDate>
       
-      <guid>http://nyccivilrightshistory.org/tags/untagged/</guid>
+      <guid>http://nyccivilrightshistory.org/site-preview/tags/untagged/</guid>
       <description></description>
     </item>
     

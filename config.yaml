@@ -1,4 +1,4 @@
-baseURL: http://nyccivilrightshistory.org/
+baseURL: http://nyccivilrightshistory.org/site-preview/
 languageCode: en-us
 title: New York City Civil Rights History
 description: A Teaching Guide
@@ -17,12 +17,12 @@ menu:
   menu.main:
   - identifier: gallery
     name: Gallery
-    url: /gallery/
+    url: gallery/
 
   menu.main:
-  - identifier: primary-source-sets
-    name: Primary Source Sets
-    url: /primary-source-sets/
+  - identifier: teaching-collections
+    name: Teaching Collections
+    url: teaching-collections
 
 markup:
   goldmark:
@@ -57,5 +57,6 @@ module:
     - source: archetypes
       target: archetypes
 
-relativeURLs: false
+relativeURLs: true
+
 

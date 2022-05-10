@@ -1,13 +1,15 @@
 {{ define "main" }}
 <div class="home">
+  <div class="container">
   <div class="row pack">
+    {{ .Content }}
     {{ range $.RegularPagesRecursive.ByDate }}
     <div class="col-md-4 card">
-      <a href="{{ .RelPermalink }}" class="index-anchor">
+      <a href="{{ .Permalink }}" class="index-anchor">
         <div class="panel panel-default">
           {{ $image := resources.Get (printf "images/%s" .Params.imageFeatured)}}
                     {{ with $image }}
-                    <img src="{{ ($image.Fill "400x300 top").RelPermalink }}" class="card-img-top img-fluid" alt="{{ .Params.alt }}" />
+                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ .Params.alt }}" />
                     {{ end }}
       </a>
       <div class="panel-body">
@@ -59,5 +61,5 @@
   <div class="col-md-4"> </div>
 </div>
 </div>
-
+</div>
 {{ end }}

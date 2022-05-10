@@ -4,10 +4,15 @@
         <img src="/img/nyccrh-logo-header.jpg" alt="" class="img-fluid d-block mx-auto">
       </a>
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="/gallery" class="nav-link">Gallery</a></li>
-        <li class="nav-item"><a href="/teaching-collections" class="nav-link">Teaching Collections</a></li>
-      </ul>
+        <li class="nav-item">{{ with .Site.GetPage "about" }}
+<a href="{{ .Permalink }}"> About </a>
+{{ end }}</li>
+        <li class="nav-item">{{ with .Site.GetPage "gallery" }}
+          <a href="{{ .Permalink }}"> Gallery </a>
+          {{ end }}</li>
+          <li class="nav-item">{{ with .Site.GetPage "teaching-collections" }}
+            <a href="{{ .Permalink }}"> Teaching Collections </a>
+            {{ end }}</li>      </ul>
       <form class="col-12 col-lg-auto mb-3 mb-lg-0">
         <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
       </form>
