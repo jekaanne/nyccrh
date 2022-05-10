@@ -27,10 +27,9 @@
     "exec-bin": "^1.0.0",
     "hugo": "^0.0.3",
     "hugo-installer": "^3.1.0",
-    "npm-check": "^5.9.2"
+    "npm-check": "^4.1.4"
   },
   "otherDependencies": {
     "hugo": "0.98.0"
-  },
-  "devDependencies": {}
+  }
 }
