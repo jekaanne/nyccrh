@@ -1,11 +1,255 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on New York City Civil Rights History</title>
+    <title>New York City Civil Rights History</title>
     <link>http://nyccivilrightshistory.org/</link>
-    <description>Recent content in Home on New York City Civil Rights History</description>
+    <description>Recent content on New York City Civil Rights History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Apr 2022 20:38:58 -0400</lastBuildDate><atom:link href="http://nyccivilrightshistory.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matter of Skipwith</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/matter-of-skipwith/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/matter-of-skipwith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>May Mallory and Daughter</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/may-mallory-and-daughter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/may-mallory-and-daughter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BOE Commission Integration</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/boe-commission-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/boe-commission-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We&#39;d rather go to jail</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/rather-go-to-jail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/harlem-nine/rather-go-to-jail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://nyccivilrightshistory.org/splash-page/</link>
+      <pubDate>Mon, 04 Apr 2022 20:38:58 -0400</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/splash-page/</guid>
+      <description>Coming Soon The New York City Civil Rights History Project (NYCCRHP) is an in-progress collaborative effort between:
+ youth and adult activists, scholars, educators, public history organizations.  The project was inspired by New York City high school student activists who wanted to understand the history of their city and schools. We aim to build a 6-12 grade teaching resource that explores histories of racist and ableist segregation in our schools.</description>
+    </item>
+    
+    <item>
+      <title>Two Public School Teachers</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/two-public-school-teachers/</link>
+      <pubDate>Mon, 01 Jan 1945 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/two-public-school-teachers/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Hotel Pennsylvania Meeting Learns of Harlem Ills</title>
+      <link>http://nyccivilrightshistory.org/gallery/hotel-penn-meeting/</link>
+      <pubDate>Sat, 17 Apr 1937 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/hotel-penn-meeting/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Hotel Pennsylvania Meeting Learns of Harlem School Ills</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/hotel-penn-meeting/</link>
+      <pubDate>Sat, 17 Apr 1937 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/hotel-penn-meeting/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Harlem Riot Report</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/harlem-riot-report/</link>
+      <pubDate>Sat, 18 Jul 1936 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/harlem-riot-report/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Hotel Pennsylvania Meeting Learns of Harlem School Ills</title>
+      <link>http://nyccivilrightshistory.org/gallery/harlem-riot-report/</link>
+      <pubDate>Sat, 18 Jul 1936 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/harlem-riot-report/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Wadleigh Zoning Map</title>
+      <link>http://nyccivilrightshistory.org/gallery/wadleigh-zoning-map/</link>
+      <pubDate>Thu, 02 Jan 1930 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/wadleigh-zoning-map/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Wadleigh Zoning Map</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/wadleigh-zoning-map/</link>
+      <pubDate>Thu, 02 Jan 1930 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/boe-segregation/wadleigh-zoning-map/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Two Public School Teachers</title>
+      <link>http://nyccivilrightshistory.org/gallery/two-public-school-teachers/</link>
+      <pubDate>Sun, 01 Mar 1925 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/two-public-school-teachers/</guid>
+      <description>Some context here</description>
+    </item>
+    
+    <item>
+      <title>Albany Evening Journal</title>
+      <link>http://nyccivilrightshistory.org/gallery/albany-evening-journal/</link>
+      <pubDate>Thu, 10 May 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/albany-evening-journal/</guid>
+      <description>Mrs. Elizabeth Cisco worked for more than five years, with her husband and on her own, to push schools in the town of Jamaica, and then the board of education in Queens, and then the New York State Legislature, to end school segregation and provide equal opportunity for her children. A few days after the New York State legislature passed a bill changing the state Constitution to end legal segregation in schools, Mrs.</description>
+    </item>
+    
+    <item>
+      <title>Albany Evening Journal</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/albany-evening-journal/</link>
+      <pubDate>Thu, 10 May 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/albany-evening-journal/</guid>
+      <description>Mrs. Elizabeth Cisco worked for more than five years, with her husband and on her own, to push schools in the town of Jamaica, and then the board of education in Queens, and then the New York State Legislature, to end school segregation and provide equal opportunity for her children. A few days after the New York State legislature passed a bill changing the state Constitution to end legal segregation in schools, Mrs.</description>
+    </item>
+    
+    <item>
+      <title>“The Elsberg Bill Signed”</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/elsberg-bill-signed/</link>
+      <pubDate>Fri, 20 Apr 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/elsberg-bill-signed/</guid>
+      <description>The passing of the so-called “Elsberg Bill,” which came as a direct result from the continued activism of Mrs. Cisco and the broad network of Jamaica parents she collaborated with, sought to remove “all distinction of color in admission to public schools of the State of New York.”1 This Brooklyn Daily Eagle story narrates the events leading to the bill’s passage, the differing responses to its passage, and the opinion of Mrs.</description>
+    </item>
+    
+    <item>
+      <title>The Elsberg Bill Signed</title>
+      <link>http://nyccivilrightshistory.org/gallery/elsberg-bill-signed/</link>
+      <pubDate>Fri, 20 Apr 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/elsberg-bill-signed/</guid>
+      <description>The passing of the so-called “Elsberg Bill,” which came as a direct result from the continued activism of Mrs. Cisco and the broad network of Jamaica parents she collaborated with, sought to remove “all distinction of color in admission to public schools of the State of New York.”1 This Brooklyn Daily Eagle story narrates the events leading to the bill’s passage, the differing responses to its passage, and the opinion of Mrs.</description>
+    </item>
+    
+    <item>
+      <title>People ex rel. Cisco v. School Board of Queens (1899-1900)</title>
+      <link>http://nyccivilrightshistory.org/gallery/cisco-vs-boe/</link>
+      <pubDate>Tue, 09 Jan 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/cisco-vs-boe/</guid>
+      <description>After a few years of pushing for desegregation of the local Jamaica schools by trying to enroll their children in segregated white institutions - and refusing to send them to segregated Black schools when they were denied admittance - Mrs. Elizabeth Cisco brought suit against the school board of Queens for violating the state’s education law. She and her husband had previously engaged in activism together, but Mr. Cisco passed away in 1897.</description>
+    </item>
+    
+    <item>
+      <title>People ex rel. Cisco v. School Board of Queens (1899-1900)</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/cisco-vs-boe/</link>
+      <pubDate>Tue, 09 Jan 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/cisco-vs-boe/</guid>
+      <description>After a few years of pushing for desegregation of the local Jamaica schools by trying to enroll their children in segregated white institutions - and refusing to send them to segregated Black schools when they were denied admittance - Mrs. Elizabeth Cisco brought suit against the school board of Queens for violating the state’s education law. She and her husband had previously engaged in activism together, but Mr. Cisco passed away in 1897.</description>
+    </item>
+    
+    <item>
+      <title>Title in Title Case</title>
+      <link>http://nyccivilrightshistory.org/gallery/elizabeth-cisco/</link>
+      <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/elizabeth-cisco/</guid>
+      <description>Some context for the item. Use Markdown styling (see link below)
+Markdown basic syntax
+Here&amp;rsquo;s a simple footnote,1
+  This is the first footnote.&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>Elizabeth Cisco</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/elizabeth-cisco/</link>
+      <pubDate>Sun, 01 Jan 1899 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/elizabeth-cisco/</guid>
+      <description> Some context for the item. Use Markdown styling (see link below)
+Markdown basic syntax
+Here&amp;rsquo;s a simple footnote,1
+  This is the first footnote.&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>Cisco on Trial in Queens</title>
+      <link>http://nyccivilrightshistory.org/gallery/cisco-on-trial/</link>
+      <pubDate>Thu, 03 Sep 1896 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/gallery/cisco-on-trial/</guid>
+      <description>Samuel B. Cisco, a Black man, lived in Jamaica, in Queens County. At the time of this newspaper article, in 1896, Queens was not yet part of New York City, and Jamaica was a small town surrounded by a rural landscape. Mr. Cisco ran a successful scavenger business and with his wife Elizabeth he had six children.1 Although Mrs. Cisco is less visible in the article, she worked alongside her husband and continued their struggle after his passing.</description>
+    </item>
+    
+    <item>
+      <title>Cisco on Trial in Queens</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/cisco-on-trial/</link>
+      <pubDate>Thu, 03 Sep 1896 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/cisco-case/cisco-on-trial/</guid>
+      <description>Samuel B. Cisco, a Black man, lived in Jamaica, in Queens County. At the time of this newspaper article, in 1896, Queens was not yet part of New York City, and Jamaica was a small town surrounded by a rural landscape. Mr. Cisco ran a successful scavenger business and with his wife Elizabeth he had six children.1 Although Mrs. Cisco is less visible in the article, she worked alongside her husband and continued their struggle after his passing.</description>
+    </item>
+    
+    <item>
+      <title>Legal Segregation Ends in New York City</title>
+      <link>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/events/legal-segregation-ends/</link>
+      <pubDate>Sun, 01 Jan 1893 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/teaching-collections/black-women-edu-adv/events/legal-segregation-ends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://nyccivilrightshistory.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New York City Civil Rights History Project</title>
+      <link>http://nyccivilrightshistory.org/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nyccivilrightshistory.org/home/</guid>
+      <description>Coming Soon The New York City Civil Rights History Project (NYCCRHP) is an in-progress collaborative effort between:
+ youth and adult activists, scholars, educators, public history organizations.  The project was inspired by New York City high school student activists who wanted to understand the history of their city and schools. We aim to build a 6-12 grade teaching resource that explores histories of racist and ableist segregation in our schools.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,58 @@
+{{ define "main" }}
+{{ $paginator := .Paginate .Data.Pages }}
+
+
+<main class="posts">
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Content }}
+    <div class="content">{{ .Content }}</div>
+    {{ end }}
+    <div class="row">
+      {{ range .Pages.ByDate }}
+        {{ $images := .Resources.ByType "photo" }}
+        {{ $image := index $images 0 }}
+        {{ $image := $image.Fill "512x360 smart" }}
+        <div class="col-md-6 col-lg-4">
+          <div class="">
+            <a href="{{ $image.RelPermalink }}"><img src="{{ .Params.photo }}"></a>
+            <div class="">
+              <h5 class="">{{ .Title }}</h5>
+              <a href="{{ .RelPermalink }}" class="">View Document Set</a>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+      <div class="footnotes" role="doc-endnotes"></div>
+    </div>
+
+  <section class="timeline">
+    <div class="container" style="text-align: left!important">
+      {{ range .RegularPagesRecursive.ByDate  }} 
+      <div class="timeline-item">
+          <div class="timeline-img">
+            <a href="{{.Permalink}}">
+              {{$title :=  .Title}}
+              {{with (.Resources.GetMatch "image.*")}}.Resize "1000x").Permalink}}" />
+              <img alt="{{$title}}"
+                loading="lazy"
+                src="{{.Permalink}}" />
+              {{end}}
+            </a>
+          </div>
+
+          <div class="timeline-content js--fadeInLeft">
+              <h2><a href="{{.Permalink}}"><span class="post-title">{{.Title}}</span></a></h2>
+              <div class="date">{{ .Date.Format "Jan 2, 2006"}}</div>
+              <p>
+                  {{.Params.Eventname}}<br>
+                  {{.Params.Eventlocation}}
+
+              </p> 
+          </div>
+      </div>  
+      {{ end }}   
+  </div>
+</section>
+{{ end }}
+
