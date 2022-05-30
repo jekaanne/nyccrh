@@ -1,64 +1,29 @@
 {{ define "main" }}
 <div class="home">
-  <div class="container">
+  <div class="container-lg">
   <div class="row pack">
     {{ .Content }}
     {{ range $.RegularPagesRecursive.ByDate }}
-    <div class="col-md-4 card">
+    <div class="col-md-3 card m-3">
       <a href="{{ .Permalink }}" class="index-anchor">
-        <div class="panel panel-default">
-          {{ $image := resources.Get (printf "images/%s" .Params.imageFeatured)}}
+        <div class="panel panel-default py-4">
+          {{ $image := resources.Get (printf "/images/%s" .Params.imageFeatured )}}
                     {{ with $image }}
-                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ .Params.alt }}" />
+                    <img src="{{ ($image.Fill "300x210 top").Permalink }}" class="card-img-top img-fluid" alt="{{ .Params.imageFeaturedAlt }}" />
                     {{ end }}
       </a>
-      <div class="panel-body">
+      <div class="panel-body py-3">
         <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3>
-      </div>
-
-      <div class="panel-body"><small>
-          {{ .Summary | plainify | truncate 180 }}</small>
       </div>
     </div>
 
   </div>
-
   {{ end }}
 
 </div>
 
 <div class="row">
-  <div class="col-md-4"> </div>
-  <div class="col-md-4">
-    {{ if gt .Paginator.TotalPages 1 }}
-    <ul class="pagination">
-      {{ if .Paginator.HasPrev }}
-      <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
-      {{ else }}
-      <li><span>&laquo; Prev</span></li>
-      {{ end }}
-
-      {{ $scratch := newScratch }}
-      {{ $scratch.Set "current" .Paginator.PageNumber }}
-
-      {{ range .Paginator.Pagers }}
-      {{ if eq .PageNumber ($scratch.Get "current") }}
-      <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
-      {{ else }}
-      <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-      {{ end }}
-      {{ end }}
-
-      {{ if .Paginator.HasNext }}
-      <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
-      {{ else }}
-      <li><span>Next &raquo;</span></li>
-      {{ end }}
-    </ul>
-    {{ end }}
-
-  </div>
-  <div class="col-md-4"> </div>
+ {{ partial "pagination" . }}
 </div>
 </div>
 </div>

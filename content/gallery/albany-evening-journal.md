@@ -2,7 +2,8 @@
 date: 1900-05-10
 title: Albany Evening Journal
 imageFeatured: albany-evening-journal.jpg
-alt: Clipping from Albany Evening Journal
+imageFeaturedAlt: Clipping from Albany Evening Journal
+caption: caption
 eventname: This article shows a complicated moment of recognition for Elizabeth Cisco after legal school segregation ends.  
 archive-source:  Reprinted in The Autobiography of Dr. William Henry Johnson.
 source-link: https://archive-link.com

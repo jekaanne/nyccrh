@@ -1,6 +1,6 @@
 {{ define "main" }}
-<section class="hero">
-    <div class="container col-l-2">
+<section class="">
+    <div class="container-lg">
         <div class="row align-items-center justify-content-center py-5 g-5">
             <div class="col-lg-8 order-lg-first">
                 <h1>{{ .Page.Params.title }}</h1>
@@ -10,7 +10,7 @@
     </div>
 </section>
 <section>
-    <div class="container col-l-2">
+    <div class="container-lg">
         <div class="row">
             {{ range .Params.cards }}
             <div class="col-md-4">
@@ -35,32 +35,26 @@
     </div>
 </section>
 <section class="timeline">
-    <div class="container" style="text-align: left!important">
-        <div class="row">
-        <div class="col-lg-8">
+    <div class="container-lg" style="text-align: left!important">
       {{ range .RegularPagesRecursive.ByDate  }} 
+
       <div class="timeline-item">
-          <div class="timeline-img">
-            <a href="{{.Permalink}}">
+          <div class="timeline-img"></div>
+          <div class="timeline-content js--fadeInLeft">
+              <h2>{{ .Params.Title}}</h2>
+              <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>
+              <p><a href="{{.Permalink}}">
                 {{ $timelineimage := resources.GetMatch (printf "/images/%s" .Params.imageFeatured)}}
                 {{ with $timelineimage }}
-                <img src="{{ ($timelineimage.Fill "160x120 top").RelPermalink }}"  alt="{{ .Params.alt }}" />
+                <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ .Params.alt }}" />
                 </a>{{ end }}
-          </div>
-          <div class="timeline-content">
-              <h2><a href="{{.Permalink}}"><span class="post-title">{{ .Params.Title}}</span></a></h2>
-              <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>
-              <p>
                   {{.Params.Eventname}}<br>
                   {{.Params.Eventlocation}}
 
               </p> 
           </div>
       </div>  
-      
-      {{ end }}  
-    </div> 
-    </div>
+      {{ end }}   
   </div>
 </section>
 {{ end }}

@@ -1,5 +1,4 @@
 ---
-layout: docset-gallery
 title: "Teach by Topic"
 lead: "something about the curation of primary sources"
 weight: 1

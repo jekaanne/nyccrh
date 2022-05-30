@@ -7,7 +7,6 @@ categories:
 tags:
   - untagged
 draft: false
-imageAddClass: "responsive-figure fullwidth"
 ---
 
 {{< readfile "/content/gallery/elsberg-bill-signed.md" >}}

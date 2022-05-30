@@ -1,12 +1,12 @@
 ---
-layout: subset
+layout: docset-gallery
 type: list
 title: "The Cisco Case"
 description: "description of this collection"
 draft: false
 weight: 20
 date: 1936-07-18
-featured_image: elizabeth-cisco.jpeg
+imageFeatured: elizabeth-cisco.jpeg
 ---
 
 This document set explores Black and Latina women’s education advocacy through and beyond the courts from the late nineteenth century to the present. There are five parts to this set. The first involves a school desegregation case brought against the School Board of Queens by Mrs. Elizabeth Cisco in 1899. The second is a collection of primary sources that illuminate segregationist school zoning policies in Harlem and its surrounding neighborhoods as well as the key roles Black women, like Lucile Spence and Eunice Hunton Carter, played in challenging those policies during the first half of the twentieth century. The third part is a series of documents crucial to understanding the story of the “Harlem Nine” - the nine Harlem mothers who refused to send their children to segregated and unequal schools in 1958. The next part examines the educational activism of Denise Oliver and Iris Morales within the Young Lords Party. The final part narrates the multi-faceted advocacy of Evelina López Antonetty in the Bronx.

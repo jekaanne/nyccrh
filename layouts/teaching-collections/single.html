@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="main">
+  <div class="container-lg">
+    <div class="row align-items-start">
+      <div class="col-lg-12">
+        {{ partial "title" . }}
+        {{ .Content | markdownify }}
+       </div>
+      <div class="col-lg-12">
+        {{ $image := resources.Get (printf "/images/%s" .Params.imageFeatured)}}
+                    {{ with $image }}
+                    <img src="{{ ($image.Fit "800x400").Permalink }}" class="responsive-figure" alt="{{ .Params.alt }}" />
+                    {{ end }}
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Image Details
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <p> <strong>Caption:</strong> {{ .Page.Params.caption }}</p>
+                           <p> <strong>Source:</strong> {{ .Page.Params.archive_source }}</p>
+                           <p> <strong>Permalink:</strong> {{ .Page.Params.source_link }}</p>
+                           <p> <strong>Copyright:</strong> {{ .Page.Params.copyright }}</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                References
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                          </div>
+                        </div>
+    
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

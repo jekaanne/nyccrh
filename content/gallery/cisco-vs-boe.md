@@ -17,7 +17,6 @@ layout: gallery
 draft: false
 ---
 
-
 After a few years of pushing for desegregation of the local Jamaica schools by trying to enroll their children in segregated white institutions - and refusing to send them to segregated Black schools when they were denied admittance - Mrs. Elizabeth Cisco brought suit against the school board of Queens for violating the state’s education law. She and her husband had previously engaged in activism together, but Mr. Cisco passed away in 1897. Mrs. Cisco carried their work forward, alongside her attorneys.[^1]
 
 Neither of the courts that heard the case supported Mrs. Cisco’s claims. They agreed that the school’s principal, on the orders of the district’s superintendent, had prohibited her children’s enrollment in the school closest to their home because it was a segregated white school and the Cisco children were Black, but they did not find this to be a violation of the law, since New York State had a law permitting school segregation. Mrs. Cisco lost her case.
