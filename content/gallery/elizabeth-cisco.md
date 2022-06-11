@@ -19,15 +19,11 @@ tags:
   - untagged
 layout: gallery
 draft: false
-references: "1. Footnote 1
-
-  2. Footnote 2
-
-  3. Footnote 3"
 ---
 
-Some context for the item. Use Markdown styling (see link below)
+Some context for the item. Use Markdown styling (see link below)[^2]
 
 Here's a simple footnote,[^1]
 
 [^1]: This is the first footnote.
+[^2]: This is the first footnote.
