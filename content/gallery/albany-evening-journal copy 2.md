@@ -4,8 +4,8 @@ title: Albany Evening Journal
 imageFeatured: albany-evening-journal.jpg
 imageFeaturedAlt: Clipping from Albany Evening Journal
 caption: caption
-eventname: This article shows a complicated moment of recognition for Elizabeth Cisco after legal school segregation ends.  
-archive-source:  Reprinted in The Autobiography of Dr. William Henry Johnson.
+eventname: This article shows a complicated moment of recognition for Elizabeth Cisco after legal school segregation ends.
+archive-source: Reprinted in The Autobiography of Dr. William Henry Johnson.
 source-link: https://archive-link.com
 copyright: Public Domain
 eventlocation: Somewhere, NY

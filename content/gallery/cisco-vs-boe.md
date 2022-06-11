@@ -2,11 +2,11 @@
 date: 1900-01-09
 title: People ex rel. Cisco v. School Board of Queens (1899-1900)
 imageFeatured: cisco-vs-boe.jpg
-alt: Court documents
+imageFeaturedAlt: Court documents
 eventname: After Samuel Cisco's death, Elizabeth Cisco filed a lawsuit agains the school board in queens.
 caption: Samuel and Elizabeth Cisco of Jamaica, New York (today part of Queens in New York City) had been challenging school segregation for years. After Mr. Cisco passed away in 1897, Mrs. Cisco continued her struggle with a suit against the school board of Queens. The above document is a selection from the presiding judge’s opinion in the case.
 archive-source: People ex Rel. Cisco v. School Board, 44 App. Div. 469, 61 N.Y.S. 330 (N.Y. App. Div. 1899)
-source-link: 
+source-link:
 copyright: Public Domain
 eventlocation: Somewhere, NY
 categories:
