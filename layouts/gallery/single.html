@@ -8,12 +8,19 @@
        </div>
       <div class="col-lg-12">
         <div class="d-flex justify-content-center">
-        {{with .Params.imageFeatured}}
-        {{ $image := resources.Get (printf "/images/%s" .)}}
-                    {{ with $image }}
-                    <img src="{{ ($image).Permalink }}" class="responsive-figure-fullwidth" alt="{{ $.Params.imageFeaturedAlt }}" style="max-width: 100%;"/>
-                    {{ end }}
-         {{end}} 
+          {{with or .Params.video .Params.embed}}
+            {{with $.Params.video}}
+              <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/{{.}}" title="{{with $.Params.videoTitle}}{{ . }}{{else}}{{$.Title}}{{end}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {{else}}
+              {{ $pdf := resources.Get (printf "/images/%s" $.Params.embed)}}
+              <iframe title="{{with $.Params.embedTitle}}{{ . }}{{else}}{{$.Title}}{{end}}" src="{{$pdf.Permalink}}" width="100%" height="500px"></iframe>
+            {{end}}
+          {{else}}
+            {{ with .Params.imageFeatured }}
+              {{ $image := resources.Get (printf "/images/%s" .)}}
+                  <img src="{{ ($image).Permalink }}" class="responsive-figure-fullwidth" alt="{{with $.Params.imageFeaturedAlt}}{{ . }}{{else}}{{$.Title}}{{end}}" style="max-width: 100%;"/>
+            {{end}}
+          {{end}}
                   </div>
                   <div class="col-lg">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -26,9 +33,9 @@
                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                               <div class="accordion-body">
                                 <p> <strong>Caption:</strong> {{ .Params.caption | markdownify}}</p>
-                           <p> <strong>Source:</strong> {{ .Params.archive_source | markdownify}}</p>
-                           <p> <strong>Permalink:</strong> {{ .Params.source_link | markdownify}}</p>
-                           <p> <strong>Copyright:</strong> {{ .Params.copyright | markdownify}}</p>
+                                <p> <strong>Source:</strong> {{ .Params.archive_source | markdownify}}</p>
+                                <p> <strong>Permalink:</strong> {{ .Params.source_link | markdownify}}</p>
+                                <p> <strong>Copyright:</strong> {{ .Params.copyright | markdownify}}</p>
                               </div>
                             </div>
                           </div>

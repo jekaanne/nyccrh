@@ -3,7 +3,9 @@ date: 1000-01-01
 title: Title in Title Case
 imageFeatured: title-of-the-image.jpg
 embed: title-of-the-file.pdf
+embedTitle: title of pdf here
 video: video-url
+videoTitle: youtube video title
 eventname: One sentence description for the timeline view, this shouldn't be longer than 125 characters.
 caption: A longer descriptive image caption. Can be 2-3 sentences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna est, consectetur vel dapibus ac, gravida a metus. Integer scelerisque elit odio, nec rutrum ante volutpat ultrices. Pellentesque nec consequat orci. Aliquam leo est, dictum quis convallis sit amet, elementum sed justo.
 archive_source: Source of the primary document
