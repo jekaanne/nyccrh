@@ -3,7 +3,7 @@
   <div class="container-lg">
   <div class="row pack">
     {{ .Content }}
-    {{ range $.RegularPagesRecursive.ByDate }}
+    {{ range (.Paginate $.RegularPagesRecursive.ByDate).Pages}}
     <div class="col-md-3 card m-3">
       <a href="{{ .Permalink }}" class="index-anchor">
         <div class="panel panel-default py-4">

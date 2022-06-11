@@ -7,11 +7,12 @@
         {{ .Content | markdownify }}
        </div>
       <div class="col-lg-12">
-        {{ $image := resources.Get (printf "/images/%s" .Params.imageFeatured)}}
+        {{with .Params.imageFeatured}}
+        {{ $image := resources.Get (printf "/images/%s" .)}}
                     {{ with $image }}
-                    <img src="{{ ($image.Fit "800x400").Permalink }}" class="responsive-figure" alt="{{ .Params.alt }}" />
+                    <img src="{{ ($image.Fit "800x400").Permalink }}" class="responsive-figure" alt="{{ $.Params.alt }}" />
                     {{ end }}
-
+        {{end}}
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                           <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
