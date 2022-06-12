@@ -18,11 +18,6 @@ tags:
   - untagged
 layout: gallery
 draft: false
-references: "1. Reference 1
-
-  2. Reference 2
-
-  3. Reference 3"
 ---
 
 Some context for the item. Use Markdown styling (see link below)
