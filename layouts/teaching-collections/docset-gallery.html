@@ -9,16 +9,19 @@
         </div>
     </div>
 </section>
+{{with .Params.cards}}
 <section>
     <div class="container-lg">
         <div class="row">
-            {{ range .Params.cards }}
+            {{ range . }}
             <div class="col-md-4">
                 <div class="card mb-3">
-                    {{ $image := resources.Get (printf "images/%s" .img)}}
+                    {{with .img}}
+                    {{ $image := resources.Get (printf "images/%s" .)}}
                     {{ with $image }}
                     <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ .Params.alt }}" />
                     {{ end }}
+                    {{end}}
                     <div class="card-body">
                         <h5 class="card-title">{{ .title }}</h5>
                         <p class="card-text">{{ .text }}</p>
@@ -34,27 +37,60 @@
         </div>
     </div>
 </section>
+{{end}}
 <section class="timeline">
     <div class="container-lg" style="text-align: left!important">
       {{ range .RegularPagesRecursive.ByDate  }} 
-
+        {{$alt:= .Params.imageFeaturedAlt}}
+        {{$permalink:= .Permalink}}
       <div class="timeline-item">
           <div class="timeline-img"></div>
           <div class="timeline-content js--fadeInLeft">
               <h2>{{ .Params.Title}}</h2>
               <div class="date">{{ .Params.Date.Format "Jan 2, 2006"}}</div>
-              <p><a href="{{.Permalink}}">
-                {{ $timelineimage := resources.GetMatch (printf "/images/%s" .Params.imageFeatured)}}
+              <p>{{with .Params.imageFeatured}}
+                <a href="{{$permalink}}">
+                {{ $timelineimage := resources.GetMatch (printf "/images/%s" .)}}
                 {{ with $timelineimage }}
-                <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ .Params.alt }}" />
-                </a>{{ end }}
+                <img src="{{ ($timelineimage.Fill "160x120 top").Permalink }}"  alt="{{ $alt }}" />
+                </a>{{ end }}{{end}}
                   {{.Params.Eventname}}<br>
                   {{.Params.Eventlocation}}
 
               </p> 
           </div>
       </div>  
-      {{ end }}   
-  </div>
+      {{ end }}
+
+        {{$allPages:= .Page.Parent.Pages}}
+        {{$pages:= slice}}
+        {{range $allPages}}
+            {{if eq .Params.layout "docset-gallery"}} 
+                {{$pages = $pages | append .}}
+            {{end}}
+        {{end}}
+
+        {{$permalink:= .Permalink}}
+        {{$lastIndex:= sub (len $pages) 1}}
+
+        {{range $index,$page:= $pages}}
+            {{if eq $page.Permalink $permalink}}
+            <div class="d-flex justify-content-between py-5">
+
+                {{if and (ne $index 0) (eq $index $lastIndex)}}  
+                <a class="previous" href="{{(index $pages (sub $index 1)).Permalink}}"> Previous item </a> 
+                {{else if and (eq $index 0) (ne $index $lastIndex)}}      
+                <a class="next" href="{{(index $pages (add $index 1)).Permalink}}"> Next item </a>
+                {{else}}
+                <a class="previous" href="{{(index $pages (sub $index 1)).Permalink}}"> Previous item </a>
+                <a class="next" href="{{(index $pages (add $index 1)).Permalink}}"> Next item </a>  
+                {{end}}
+          </div>
+            {{end}}
+            
+        {{end}}
+        
+        </div>
+
 </section>
 {{ end }}

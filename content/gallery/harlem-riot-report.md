@@ -4,6 +4,7 @@ title: "Hotel Pennsylvania Meeting Learns of Harlem School Ills"
 draft: false
 layout: gallery
 imageFeatured: harlem-riot-report.jpg
+imageFeaturedAlt: Hotel Pennsylvania Meeting Learns of Harlem School Ills
 ---
 
 Some context here

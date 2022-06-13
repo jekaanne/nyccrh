@@ -5,11 +5,11 @@ weight: 1
 draft: false
 cardsTitle: Primary Source Sets
 cards:
-- title: Black Women's Educational Activism in and Beyond the Courts
-  img: elizabeth-cisco.jpg
-  alt: alt tag
-  text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
-  btn:
-    text: View the primary source set
-    url: /teaching-collections/black-women-edu-adv/
+  - title: Black Women's Educational Activism in and Beyond the Courts
+    img: elizabeth-cisco.jpg
+    alt: alt tag
+    text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
+    btn:
+      text: View the primary source set
+      url: /teaching-collections/black-women-edu-adv/
 ---

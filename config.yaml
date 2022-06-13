@@ -2,6 +2,7 @@ baseURL: http://nyccivilrightshistory.org/site-preview/
 languageCode: en-us
 title: New York City Civil Rights History
 description: A Teaching Guide
+canonifyURLs: true
 
 params.logo:
     logoText: New York City
@@ -51,8 +52,8 @@ module:
     - source: archetypes
       target: archetypes
 
-relativeURLs: true
+# relativeURLs: true
 
-paginate: 20
+paginate: 5
 
 
