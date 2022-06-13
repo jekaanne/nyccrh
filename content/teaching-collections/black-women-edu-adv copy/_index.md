@@ -6,19 +6,21 @@ cardsTitle: Teaching Collections
 cards:
   - title: The Cisco Case
     img: elizabeth-cisco.jpg
-    alt: alt tag
+    alt: "alt tag"
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
     btn:
       text: View the document set
       url: /teaching-collections/black-women-edu-adv/cisco-case
   - title: Board of Education Segregation and Teacher Activism
     img: wadleigh-zoning-map.jpg
+    alt: text
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
     btn:
       text: View the document set
       url: /teaching-collections/black-women-edu-adv/boe-segregation
   - title: The Case of the "Harlem Nine"
     img: mae-mallory-and-daughter-patricia.jpg
+    alt: alt tag
     text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, suscipit? Cum, esse. Molestias reiciendis, aperiam qui aut doloribus nihil aspernatur?
     btn:
       text: View the document set
