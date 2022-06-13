@@ -4,4 +4,5 @@ title: "We'd rather go to jail"
 description: "Brief description of the item"
 draft: false
 imageFeatured: rather-go-to-jail.jpg
+imageFeaturedAlt: We'd rather go to jail
 ---

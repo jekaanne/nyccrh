@@ -5,6 +5,7 @@ eventname: Wadleigh Zoning Map
 eventlocation: Harlem, New York City
 draft: false
 imageFeatured: wadleigh-zoning-map.jpg
+imageFeaturedAlt: BOE Commission Integration
 ---
 
 {{< readfile "/content/gallery/wadleigh-zoning-map.md" >}}
