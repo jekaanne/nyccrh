@@ -5,6 +5,7 @@ layout: page
 eventname: "Brief description of the item"
 draft: false
 imageFeatured: boe-commission-integration.jpg
+imageFeaturedAlt: image alt
 ---
 
 {{< readfile "/content/gallery/boe-commission-integration.md" >}}
