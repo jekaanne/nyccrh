@@ -13,13 +13,15 @@
 <section>
     <div class="container-lg">
         <div class="row">
-            {{ range . }}
+            {{ range $index,$card:= . }}
             <div class="col-md-4">
                 <div class="card mb-3">
+                    {{$alt:= .alt}}  
+                    {{$card}} 
                     {{with .img}}
                     {{ $image := resources.Get (printf "images/%s" .)}}
                     {{ with $image }}
-                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ .Params.alt }}" />
+                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{$alt}}" />
                     {{ end }}
                     {{end}}
                     <div class="card-body">

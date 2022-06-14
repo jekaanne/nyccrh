@@ -15,10 +15,11 @@
             {{ range .Params.cards }}
             <div class="col-md-4">
                 <div class="card mb-3">
+                    {{$alt:= .alt}}
                     {{with .img}}
                     {{ $image := resources.Get (printf "images/%s" .)}}
                     {{ with $image }}
-                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ .Params.alt }}" />
+                    <img src="{{ ($image.Fill "400x300 top").Permalink }}" class="card-img-top img-fluid" alt="{{ $alt }}" />
                     {{ end }}
                     {{end}}
                     <div class="card-body">

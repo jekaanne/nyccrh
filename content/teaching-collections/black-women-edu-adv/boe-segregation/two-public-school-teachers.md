@@ -4,6 +4,7 @@ title: "Two Public School Teachers"
 description: "Brief description of the item"
 draft: false
 imageFeatured: two-public-school-teachers.jpg
+imageFeaturedAlt: BOE Commission Integration
 eventname: Drawing of two public school teachers
 eventlocation: Harlem, New York City
 ---
